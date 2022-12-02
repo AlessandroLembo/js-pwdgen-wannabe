@@ -35,6 +35,10 @@ const myNumber = document.getElementById("number");
 // console.log(myNumber);
 
 
-// 2 - Chiedo all'utente come si chiama
+// 2e3 - Chiedo all'utente come si chiama e lo salvo in variabile
 const firstName = prompt("Qual è il tuo nome?" , "alessandro");
-console.log(firstName);
+// console.log(firstName);
+
+// 4e5 - Chiedo all'utente il suo cognome e lo salvo nella variabile
+const lastName = prompt("Qual è il tuo cognome?" , "lembo");
+console.log(lastName);
