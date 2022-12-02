@@ -41,4 +41,8 @@ const firstName = prompt("Qual è il tuo nome?" , "alessandro");
 
 // 4e5 - Chiedo all'utente il suo cognome e lo salvo nella variabile
 const lastName = prompt("Qual è il tuo cognome?" , "lembo");
-console.log(lastName);
+// console.log(lastName);
+
+// 6e7 - Chiedo all'utente il suo colore preferito e lo salvo in variabile
+const colorChoosen = prompt("Qual è il tuo colore preferito?" , "verde");
+console.log(colorChoosen);
