@@ -21,15 +21,20 @@ ANALISI
 */
 
 // SVOLGIMENTO
-// Prendo gli elementi dalla pagina
-const nameUser = document.getElementById("name");
-console.log(nameUser);
+// 1 - Prendo gli elementi dalla pagina
+const nameSubject = document.getElementById("name");
+// console.log(nameUser);
 
-const surnameUser = document.getElementById("surname");
-console.log(surnameUser);
+const surnameSubject = document.getElementById("surname");
+// console.log(surnameUser);
 
-const colorUser = document.getElementById("color");
-console.log(colorUser);
+const colorFavorite = document.getElementById("color");
+// console.log(colorUser);
 
 const myNumber = document.getElementById("number");
-console.log(myNumber);
+// console.log(myNumber);
+
+
+// 2 - Chiedo all'utente come si chiama
+const firstName = prompt("Qual è il tuo nome?" , "alessandro");
+console.log(firstName);
