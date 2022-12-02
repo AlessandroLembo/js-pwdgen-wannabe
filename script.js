@@ -10,7 +10,7 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21
 
 /*
 ANALISI
-1 - Prendo gli elementi dalla pagina
+1 - Prendo l'elemento dalla pagina
 2 - Chiedere all'utente come si chiama 
 3 - Salvare la risposta nella variabile
 4 - Chiedere all'utente il suo cognome 
@@ -23,7 +23,7 @@ ANALISI
 
 // SVOLGIMENTO
 // 1 - Prendo l'elemento dalla pagina
-const passwordSubject = document.getElementById("name");
+const passwordSubject = document.getElementById("password");
 console.log(passwordSubject);
 
 
