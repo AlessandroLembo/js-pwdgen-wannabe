@@ -44,7 +44,7 @@ console.log(colorChoosen);
 
 // 8 - Compongo la password
 const passwordGenerated = firstName + lastName + colorChoosen + "21";
-console.log(password);
+console.log(passwordGenerated);
 
 
 // 9 - Inserico la password generata nella pagina
